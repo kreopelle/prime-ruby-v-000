@@ -3,8 +3,9 @@ def prime?(my_number)
   test_array.each do |test_num|
     part_one = test_num**(my_number-1)
     if part_one == number % num
-    true
-  else
-    false
+      true
+    else
+      false
+    end
   end
 end
