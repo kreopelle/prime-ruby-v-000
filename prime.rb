@@ -1,1 +1,3 @@
-# Add  code here!
+
+
+puts Prime.prime?(2)
