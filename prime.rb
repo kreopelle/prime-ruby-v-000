@@ -9,7 +9,7 @@ def prime?(my_number)
       possible_factor += 1
     end
   end
-  if possible_factor = my_number
+  if possible_factor == my_number
     true
   elsif my_number < 1
     false
