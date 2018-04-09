@@ -8,6 +8,7 @@ def prime?(my_number)
       my_number /= posible_factor
       possible_factor += 1
     end
+    if possible_factor = my_number
   end
 end
 
