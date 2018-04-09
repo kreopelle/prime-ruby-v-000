@@ -5,7 +5,7 @@ def prime?(my_number)
   while my_number > 1
     if (my_number % possible_factor == 0)
       factor_array << possible_factor
-      my_number /= posible_factor
+      my_number /= possible_factor
     else
       possible_factor += 1
     end
