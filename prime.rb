@@ -12,3 +12,16 @@ else
   false
 end
 end
+
+def trial_division(n)
+  a = []
+  f = 2
+  while n > 1
+    if (n % f == 0)
+      a << f
+    else
+      f += 1
+    end
+  end
+  a
+end
