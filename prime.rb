@@ -35,5 +35,9 @@ def prime?(my_number)
         false
       else
         true
+      end
+    end
   else
     false
+  end
+end
