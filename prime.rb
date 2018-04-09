@@ -19,9 +19,23 @@ def trial_division(n)
   while n > 1
     if (n % f == 0)
       a << f
+      n /= f
     else
       f += 1
     end
   end
   a
 end
+
+def prime?(my_number)
+  if my_number >= 1
+    range_array = (2..my_number)
+    range_array.each do |test_number|
+      if my_number % test_number == 0
+        false
+      else
+        true
+  else
+    false
+    
+    
