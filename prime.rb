@@ -9,6 +9,6 @@ def prime?(my_number)
       false
     end
   end
-else 
+else
   false
 end
