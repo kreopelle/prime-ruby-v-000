@@ -29,7 +29,7 @@ end
 
 def prime?(my_number)
   if my_number >= 1
-    range_array = (2..my_number)
+    range_array = (2..my_number-1)
     range_array.each do |test_number|
       if my_number % test_number == 0
         false
@@ -37,5 +37,3 @@ def prime?(my_number)
         true
   else
     false
-    
-    
