@@ -1,15 +1,15 @@
-def prime?(n)
-  a = []
-  f = 2
-  while n > 1
-    if (n % f == 0)
-      a << f
-      n /= f
+def prime?(my_number)
+  factor_array = []
+  possible_factor = 2
+  while my_number > 1
+    if (my_number % possible_factor == 0)
+      factor_array << possible_factor
+      my_number /= posible_factor
     else
-      f += 1
+      possible_factor += 1
     end
   end
-  if a.length == 1
+  if factor_array.length == 1
     true
   else
     false
