@@ -1,4 +1,5 @@
 def prime?(my_number)
+ if my_number >= 1
   test_array = (2..my_number).to_a
   test_array.each do |test_num|
     part_one = test_num**(my_number-1)
@@ -8,4 +9,6 @@ def prime?(my_number)
       false
     end
   end
+else 
+  false
 end
