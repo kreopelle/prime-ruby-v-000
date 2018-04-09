@@ -1,20 +1,4 @@
-=begin
-def prime?(my_number)
- if my_number >= 1
-  test_array = (2..my_number).to_a
-  test_array.each do |test_num|
-    if test_num**(my_number-1) % my_number == 0
-      true
-    else
-      false
-    end
-  end
-else
-  false
-end
-end
-
-def trial_division(n)
+def prime?(n)
   a = []
   f = 2
   while n > 1
@@ -25,10 +9,14 @@ def trial_division(n)
       f += 1
     end
   end
-  a
+  if a.length == 1
+    true
+  else
+    false
+  end
 end
-=end
 
+=begin
 def prime?(my_number)
   if my_number >= 1
     range_array = (2..my_number-1)
@@ -43,3 +31,4 @@ def prime?(my_number)
     false
   end
 end
+=end
