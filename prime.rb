@@ -1,3 +1,4 @@
+=begin
 def prime?(my_number)
  if my_number >= 1
   test_array = (2..my_number).to_a
@@ -26,6 +27,7 @@ def trial_division(n)
   end
   a
 end
+=end
 
 def prime?(my_number)
   if my_number >= 1
