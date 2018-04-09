@@ -12,3 +12,4 @@ def prime?(my_number)
 else
   false
 end
+end
